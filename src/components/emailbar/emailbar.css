@@ -1,0 +1,33 @@
+.email-primary-container {
+    margin: 20px;
+}
+
+.email-bar {
+    padding: 8px;
+    margin-right: 5px;
+    height: 20px;
+    width: calc(100% - 20px);
+}
+
+.search-bar:disabled {
+    background-color: #e0e0e0;
+    color: #757575;
+}
+
+.email-enter-button {
+    margin-top: 10px;
+    background-color: #c6e4ff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+
+.email-enter-button:disabled {
+    background-color: #c4c4c4;
+    box-shadow: none;
+
+}

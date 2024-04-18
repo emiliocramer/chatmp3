@@ -1,0 +1,58 @@
+.search-primary-container {
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.search-bar {
+    padding: 8px;
+    height: 20px;
+    width: calc(100% - 60px);
+}
+.search-bar:focus {
+    outline: none;
+}
+
+.search-button {
+    margin-top: 10px;
+    background-color: #c6e4ff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 5px;
+    width: calc(100% - 40px);
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+
+.search-button:hover {
+    cursor: pointer;
+}
+
+.returned-song-object {
+    height: 80px;
+    width: calc(100% - 60px);
+    margin-top: 20px;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+    background-color: #c4c4c4;
+}
+
+.returned-song-object img{
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+}
+
+.returned-song-object .title {
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,34 @@
+.play-bar {
+    padding: 8px;
+    margin-right: 5px;
+    height: 20px;
+    width: calc(100% - 60px);
+}
+
+.play-enter-button {
+    margin-top: 10px;
+    background-color: #c6e4ff;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 40px);
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+
+.play-enter-button:hover {
+    cursor: pointer;
+}
+
+.play-again-button {
+    margin-top: 10px;
+    background-color: #c6e4ff;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 40px);
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
