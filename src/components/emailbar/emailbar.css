@@ -1,12 +1,8 @@
-.email-primary-container {
-    margin: 20px;
-}
-
 .email-bar {
     padding: 8px;
-    margin-right: 5px;
+    margin: 10px 25%;
     height: 20px;
-    width: calc(100% - 20px);
+    width: 50%;
 }
 
 .search-bar:disabled {

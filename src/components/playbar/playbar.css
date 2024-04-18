@@ -21,14 +21,26 @@
     cursor: pointer;
 }
 
+.response-text {
+    margin: 40px 0 10px 0;
+    font-size: 15px;
+    width: calc(100% - 40px);
+    text-align: center;
+    font-weight: bold;
+}
+
 .play-again-button {
-    margin-top: 10px;
     background-color: #c6e4ff;
     border: none;
+    margin-top: 40px;
     border-radius: 5px;
     width: calc(100% - 40px);
     padding: 10px 5px;
     font-weight: bold;
     font-size: 15px;
     box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+
+.play-again-button:hover {
+    cursor: pointer;
 }

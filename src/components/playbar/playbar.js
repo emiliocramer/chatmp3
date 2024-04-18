@@ -5,6 +5,7 @@ import {Emailbar} from "../emailbar/emailbar";
 export const PlayBar = () => {
     const [prompt, setPrompt] = useState('');
     const [isEntered, setIsEntered] = useState(false);
+    const [hasEntered, setHasEntered] = useState(false);
 
     const handleEnter = () => {
         if (prompt.trim()) {
@@ -32,11 +33,18 @@ export const PlayBar = () => {
             </button>
             {isEntered && (
                 <>
-                    <p>Looking good! If you want to receive your song, put in your email and you will receive within 2 hours!</p>
-                    <Emailbar />
+                    {hasEntered === true ? (
+                        <p className={"response-text"}>Sweet! Can't wait to hear it! We will send your song to your email within 2 hours!</p>
+                    ) : (
+                        <>
+                            <p className={"response-text"}>Looking good! If you want to receive your song, put in your email and you will receive within 2 hours!</p>
+                            <Emailbar />
+                        </>
+                    )}
                     <button
                         onClick={() => {
                             setPrompt('');
+                            setHasEntered(true);
                             setIsEntered(false);}
                         }
                         className="play-again-button">

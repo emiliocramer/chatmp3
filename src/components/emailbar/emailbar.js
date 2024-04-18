@@ -13,7 +13,6 @@ export const Emailbar = () => {
 
     return (
         <div className="email-primary-container">
-            <h3>Email</h3>
             <input
                 className="email-bar"
                 type="text"

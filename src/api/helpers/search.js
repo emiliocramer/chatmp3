@@ -1,10 +1,11 @@
 export const searchTrackAndArtist = async (search) => {
     try {
-        const response = await fetch(`http://localhost:3001/routes/search/search`, {
+        const response = await fetch(`https://chatmp3-beta-b250fc6fa9a8.herokuapp.com/routes/search/search`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
+
             body: '{"query":"'+search+'"}',
         });
 
